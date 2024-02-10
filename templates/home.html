@@ -15,10 +15,10 @@
     </style>
   </head>
   <body>
+    {% include "navbar.html" %}
+    <img class="img-fluid" id="banner" src="static/banner.jpg" heigh="320">
     <div class="container">
       <h1 class="text-center mt-4 mb-4">{{company}} Careers</h1>
-      <img class="img-fluid" id="banner" src="static/banner.jpg" heigh="320">
-      <h2 class="text-center mt-2 mb-4">About Us</h2>
       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor orci dapibus ultrices in. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Nibh praesent tristique magna sit amet purus gravida quis blandit. Facilisis sed odio morbi quis commodo. Aenean et tortor at risus viverra. Vitae et leo duis ut diam. Diam sollicitudin tempor id eu nisl. Vulputate odio ut enim blandit volutpat maecenas volutpat. Montes nascetur ridiculus mus mauris vitae ultricies leo. </p>
       <h2 class="text-center mt-2 mb-4">Open Positions</h2>
       <div>
@@ -29,5 +29,6 @@
       <div class="text-center mb-4">
         <button class="btn btn-primary btn-lg"">Contact Us</button>
       </div>
+      {% include "footer.html" %}
   </body>
 </html>
